@@ -1,6 +1,7 @@
 public class Person {
     protected String Name;
     protected String Address;
+    protected String toString;
 
     public void setName(String name){
         this.Name = name;
@@ -16,5 +17,8 @@ public class Person {
 
     public String getAddress(){
         return Address;
+    }
+    public String toString(){
+        return "Hello i am " + Name + " and " + "i live in " + Address + ".";
     }
 }

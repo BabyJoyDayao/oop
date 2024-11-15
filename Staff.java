@@ -25,5 +25,8 @@ public class Staff extends Person{
     public Double getSalary(){
         return Salary;
     }
+    public String toString(){
+        return "Hello i am " + Name + " and " + "i live in " + Address + ".";
+    }
 
 }
